@@ -4,7 +4,7 @@ import { JsonService } from './json.service';
 import { JComment } from './jcomment.class';
 
 @Component({
-  selector: 'list',
+ // selector: 'list',
     templateUrl: './list.countries.html',
    // styleUrls: ['./list.component.css']
 })
