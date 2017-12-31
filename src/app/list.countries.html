@@ -1,0 +1,43 @@
+<div>
+    <h1>Earth Countries</h1>
+</div>
+<!--<div *ngIf="jsonService.isReady">
+    <a routerLink="list">List</a>
+    <a routerLink="add">Countries</a>
+    <router-outlet></router-outlet>
+</div>
+</div>-->
+<!--<div>
+    <list *ngIf="isAddGui" (adding)="onAdding($event)"></list>
+</div>-->
+<!--
+
+<div>
+    Filter <input [(ngModel)]="population" (keyup)="filterList()"/>
+    <span *ngIf="comments">({{comments.length}})</span>
+</div>
+-->
+
+<div>
+    <table>
+        <tr>
+            <th>name</th>
+            <th>nativeName/th>
+            <th>capital</th>
+            <th>population</th>
+            <th>flag</th>
+        </tr>
+        <tr *ngFor="let comment of comments">
+            <td>{{comment.name}}</td>
+            <td>{{comment.nativeName}}</td>
+            <td>{{comment.capital}}</td>
+            <td>{{comment.population}}</td>
+            <td>{{comment.flag}}</td>
+        </tr>
+    </table>
+</div>
+<!--<div>
+<div *ngIf="!jsonService.isReady">
+    <h2>Wait... loading data... </h2>
+</div>
+</div>-->
