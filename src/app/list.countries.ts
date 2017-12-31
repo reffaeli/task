@@ -5,7 +5,7 @@ import { JComment } from './jcomment.class';
 
 @Component({
     // tslint:disable-next-line:component-selector
-    selector: 'list',
+    //selector: 'mylist',
     templateUrl: './list.countries.html',
    // styleUrls: ['./list.component.css']
 })
